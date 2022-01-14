@@ -4,4 +4,4 @@
 ## Computer with ROM
 ![scheme1](https://user-images.githubusercontent.com/73237406/146649732-eb3be2c9-224a-4370-9a25-bebd65be9237.png)
 ## Computer with ROM & RAM
-![scheme2](https://user-images.githubusercontent.com/73237406/146648492-abdf6a3a-0864-4cf0-b3e2-5e99beff84da.png)
+![scheme2](https://user-images.githubusercontent.com/44781809/149593135-c011ff70-edae-4cca-b45a-8c10bd4a4f19.png)
