@@ -9,5 +9,5 @@ Next we add processor Z80 to the scheme. Now it will be consistently set address
 Next we add RAM to the scheme. We use the most significant bit of address bus (in our case it is A4) for decryption: when it is equal to 0 - it means processor makes request to ROM, otherwise - to RAM.
 ![scheme2](https://user-images.githubusercontent.com/44781809/149593135-c011ff70-edae-4cca-b45a-8c10bd4a4f19.png)
 ## Step 4. Computer with Network Interface Card (using Arduino Mega 2560)
-Arduino emulates ROM and NIC at the same time. But now we need more bits for address bus (because size of assembly program became much larger), so we use *Arduino Mega 2560* instead of Arduino Uno.
+Arduino emulates ROM and NIC at the same time. But now we need more bits for address bus (because size of assembly program became much larger), so we use *Arduino Mega 2560* instead of Arduino Uno. Also we connect IORQ to Arduino to keep track of request to NIC
 ![scheme3](https://user-images.githubusercontent.com/44781809/149598967-2192eff7-9e4b-4e9b-8fe7-e38556c9d816.png)
