@@ -1,6 +1,6 @@
 # ComputerZ80
 ## Description
-The idea of this project is make the elementary computer based on processor Z80. The purpose of this project is to understand how computers are implemented. Then we wanted to get acquainted with the work of networks and implement our emulator of Network Interface Card.
+The idea of this project is make the elementary computer based on processor Z80. Also we used RAM, emulated ROM and LEDs as I/O devices. The purpose of this project is to understand how computers are implemented. Next we wanted to get acquainted with the work of networks and implement our emulator of Network Interface Card.
 ## Step 1. ROM Emulator
 Using Arduino Uno we emulate ROM. In the firmware of ROM it has array of values (command opcodes or data). When processor Z80 sets some address on *address bus* and make memory request, Arduino sets the value of this memory cell on *data bus*. But to test ROM, we can choose addresses by overselves. To show how it works, we use this construction: 4 buttons to choose address and 8 LEDs to show binary representation of value.
 ![image_2021-11-13_13-17-03](https://user-images.githubusercontent.com/44781809/141636375-8cedacd9-56b2-43ee-9ef2-e50469a8e96e.png)
